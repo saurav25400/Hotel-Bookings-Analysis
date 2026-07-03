@@ -270,9 +270,9 @@ The insights generated from this project can help hotel management:
 
 Aspiring Data Analyst | Python | SQL | Power BI | Excel
 
-**GitHub:** https://github.com/yourusername
+**GitHub:** https://github.com/saurav25400
 
-**LinkedIn:** https://linkedin.com/in/yourprofile
+**LinkedIn:** https://www.linkedin.com/in/saurav-kumar-74a01a20a/
 
 ---
 
