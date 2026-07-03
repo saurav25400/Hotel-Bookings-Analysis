@@ -1,13 +1,8 @@
-# Hotel Booking Analysis
-🌟 Hotel Booking Analysis (Power BI)
-
-<img width="2836" height="1589" alt="DashBoard_ScreenShot" src="https://res.cloudinary.com/doqxmemfg/image/upload/v1783067597/Screenshot_2026-07-03_140156_coqqqg.png" />
-
 # 🏨 Hotel Booking Analytics using Python & Power BI
 
 > **An end-to-end Business Intelligence project focused on analyzing hotel booking behavior, identifying revenue opportunities, reducing booking cancellations, and enabling data-driven decision-making through Exploratory Data Analysis (EDA) and an interactive Power BI dashboard.**
 
----
+<img width="2836" height="1589" alt="DashBoard_ScreenShot" src="https://res.cloudinary.com/doqxmemfg/image/upload/v1783067597/Screenshot_2026-07-03_140156_coqqqg.png" />
 
 # 📌 Project Summary
 
