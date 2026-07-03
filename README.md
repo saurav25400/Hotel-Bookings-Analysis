@@ -225,16 +225,6 @@ The insights generated from this project can help hotel management:
 
 ---
 
-# 📷 Dashboard Preview
-
-> *(Add your dashboard screenshot here.)*
-
-```markdown
-![Hotel Booking Dashboard](images/dashboard.png)
-```
-
----
-
 # 💼 Skills Demonstrated
 
 ### Data Analytics
