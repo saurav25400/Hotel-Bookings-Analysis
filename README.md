@@ -1,52 +1,294 @@
-# Astrosage-Call-Center-Analysis
+# Hotel Booking Analysis
 🌟 Hotel Booking Analysis (Power BI)
 
 <img width="2836" height="1589" alt="DashBoard_ScreenShot" src="https://res.cloudinary.com/doqxmemfg/image/upload/v1783067597/Screenshot_2026-07-03_140156_coqqqg.png" />
 
-📘 Overview:  
-This project focuses on optimizing AstroSage’s call and chat consultation operations using data analysis and strategic planning. AstroSage, a leading astrology service provider, received a ₹1 crore investment to improve its customer experience and operational efficiency. The project analyzes performance data, identifies key issues, and proposes actionable strategies to enhance customer satisfaction and maximize revenue.
+# 🏨 Hotel Booking Analytics using Python & Power BI
 
-🎯 Problem Statement:   
-Despite a large customer base, AstroSage faces operational inefficiencies such as high rates of incomplete calls and low customer ratings. The goal of this project is to analyze existing data, understand the root causes of inefficiencies, and recommend solutions to improve service quality and resource allocation.
+> **An end-to-end Business Intelligence project focused on analyzing hotel booking behavior, identifying revenue opportunities, reducing booking cancellations, and enabling data-driven decision-making through Exploratory Data Analysis (EDA) and an interactive Power BI dashboard.**
 
-🧭 Project Objective:  
-1. To identify gaps in call and chat completion rates.  
-2. To evaluate astrologer performance and customer satisfaction trends.  
-3. To propose data-driven strategic initiatives that improve efficiency and profitability.  
-4. To create a visual analytics dashboard for real-time insights and decision-making.  
+---
 
-⚙️ Tools and Techniques Used:  
-1. Excel: Data cleaning, transformation, pivot tables, and dashboard creation.  
-2. Data Visualization: Charts (Pie, Bar, Line) to represent call status, ratings, and performance trends.  
-3. Analytical Approach: Descriptive statistics, KPI tracking, and performance benchmarking.  
+# 📌 Project Summary
 
-💡 Key Features and Insights:  
-1. Call Status Distribution: Only 40.43% of calls are completed, meaning nearly 60% are incomplete. Indicates a need for better customer handling and reduced waiting time.  
-2. Chat Performance: Only 19.81% of chats are completed, showing poor follow-up and response rates.  
-3. Customer Ratings: Most ratings are below 3 stars, highlighting the need for service training and quality improvement.  
-4. Platform Performance: The majority of consultations come through the website, though the mobile app is growing rapidly.  
-5. Astrologer Performance: Top 10 astrologers drive the majority of revenue. Suggests potential for mentoring programs to uplift underperforming astrologers.  
-6. Peak Time Analysis: Highest consultation volume occurs between 5 AM – 4 PM, especially on Sundays and Mondays.  
+The hospitality industry relies heavily on customer booking behavior, pricing strategies, and demand forecasting to maximize occupancy and revenue. This project analyzes hotel booking data to uncover hidden patterns in customer behavior, booking cancellations, seasonal demand, and revenue performance.
 
-🚀 Strategic Initiatives & Solutions:  
-1. AI Chatbots: Automate basic queries to reduce workload on agents.  
-2. Real-Time Dashboards: Implement Power BI/Tableau dashboards for live tracking.  
-3. Customer Feedback System: Introduce post-call surveys to gather satisfaction data.  
-4. Sentiment Analysis: Use AI to detect negative tones in calls and respond proactively.  
-5. Performance Incentives: Reward top astrologers and provide training for underperformers.  
-6. Peak Hour Staffing: Hire more agents during high-demand hours to reduce waiting time.  
-7. Mobile Optimization: Enhance the mobile experience to attract and retain app users.  
+Using **Python** for data preparation and analysis and **Power BI** for dashboard development, this project converts raw operational data into meaningful business insights and strategic recommendations for hotel management.
 
-📊 Dashboard Features:  
-1. Call and chat completion trends.  
-2. Ratings and revenue insights by astrologer.  
-3. Platform-wise performance comparison.  
-4. Daily and hourly traffic visualization.  
-5. KPIs for revenue, satisfaction, and conversion.  
+---
 
-🧠 Conclusion:  
-This project provides a comprehensive analytical view of AstroSage’s consultation performance. By addressing the identified inefficiencies and implementing strategic initiatives, AstroSage can achieve:  
-1. Higher call/chat completion rates.  
-2. Improved customer satisfaction.  
-3. Optimized resource utilization.  
-4. Increased overall profitability.  
+# 🎯 Business Problem
+
+Hotel management faces several operational and revenue-related challenges, including:
+
+* High booking cancellation rates
+* Seasonal fluctuations in demand
+* Inefficient pricing strategies
+* Customer retention challenges
+* Revenue optimization across booking channels
+* Understanding high-value customer segments
+
+This project aims to address these challenges by leveraging historical booking data to support informed business decisions.
+
+---
+
+# 🎯 Project Objectives
+
+* Analyze customer booking patterns.
+* Identify the key drivers of booking cancellations.
+* Evaluate revenue performance using ADR (Average Daily Rate).
+* Understand seasonal demand and occupancy trends.
+* Analyze customer segments, booking channels, and market segments.
+* Generate actionable business recommendations.
+* Develop an interactive executive dashboard for business stakeholders.
+
+---
+
+# 📂 Dataset Overview
+
+**Dataset:** Hotel Booking Demand Dataset
+
+**Hotels Covered**
+
+* City Hotel
+* Resort Hotel
+
+**Data Period**
+
+2015–2017
+
+**Dataset Size**
+
+* 119,390 Hotel Bookings
+* 32 Business Features
+
+Key business attributes include:
+
+* Booking Status
+* Lead Time
+* Arrival Date
+* Customer Type
+* Market Segment
+* Distribution Channel
+* Average Daily Rate (ADR)
+* Reservation Status
+* Country
+* Room Type
+* Special Requests
+* Length of Stay
+
+---
+
+# 🛠️ Technology Stack
+
+### Programming
+
+* Python
+
+### Libraries
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+### Business Intelligence
+
+* Power BI
+* DAX
+
+### Development Environment
+
+* Google Colab
+* Git
+* GitHub
+
+---
+
+# 🧹 Data Preparation
+
+The dataset was preprocessed using industry-standard data cleaning techniques:
+
+* Missing value treatment
+* Duplicate removal
+* Feature engineering
+* Length of Stay calculation
+* Data validation
+* Outlier identification
+* Data transformation
+
+---
+
+# 📊 Exploratory Data Analysis
+
+The analysis focused on answering key business questions related to:
+
+* Booking trends
+* Customer behavior
+* Cancellation analysis
+* Revenue analysis
+* Seasonal demand
+* Booking channels
+* Market segments
+* Guest demographics
+* Room allocation
+* Customer engagement
+
+---
+
+# 📈 Interactive Power BI Dashboard
+
+The Power BI dashboard provides an executive view of hotel performance through:
+
+* Executive KPIs
+* Booking Performance
+* Cancellation Analysis
+* Revenue Analysis (ADR)
+* Customer Segmentation
+* Market Segment Analysis
+* Distribution Channel Analysis
+* Seasonal Booking Trends
+* Guest Behavior Analysis
+* Interactive Filters & Drill-through
+
+---
+
+# 💡 Key Business Insights
+
+### ✔ Long Lead-Time Bookings Have Higher Cancellation Risk
+
+Bookings made significantly in advance exhibit a greater probability of cancellation, creating uncertainty in occupancy forecasting.
+
+---
+
+### ✔ International Guests Are High-Value Customers
+
+International guests generally:
+
+* Book earlier
+* Stay longer
+* Generate higher ADR
+
+making them one of the hotel's most valuable customer segments.
+
+---
+
+### ✔ Customer Engagement Reduces Cancellation
+
+Guests making multiple special requests demonstrate stronger booking commitment and lower cancellation rates.
+
+---
+
+### ✔ Group Reservations Have the Highest Cancellation Rate
+
+Bookings from group market segments contribute disproportionately to overall cancellations and require improved booking policies.
+
+---
+
+### ✔ Weekend Reservations Experience Higher Cancellations
+
+Weekend bookings are more susceptible to cancellation due to changing travel plans and leisure-oriented demand.
+
+---
+
+### ✔ GDS Delivers the Highest Revenue per Booking
+
+The Global Distribution System (GDS) consistently generates the highest Average Daily Rate among all booking channels.
+
+---
+
+### ✔ August Represents Peak Seasonal Demand
+
+August recorded the highest booking volume, highlighting strong seasonal demand and opportunities for dynamic pricing strategies.
+
+---
+
+# 📌 Strategic Business Recommendations
+
+* Introduce targeted cancellation policies for long lead-time reservations.
+* Prioritize acquisition and retention of high-value international guests.
+* Enhance guest personalization to strengthen booking commitment.
+* Review cancellation policies for group bookings.
+* Expand investment in high-performing booking channels such as GDS.
+* Implement dynamic pricing during peak demand periods.
+* Launch promotional campaigns during off-peak seasons.
+* Develop customer retention strategies for weekend bookings.
+
+---
+
+# 📈 Business Impact
+
+The insights generated from this project can help hotel management:
+
+* Reduce booking cancellations
+* Improve occupancy forecasting
+* Optimize pricing strategies
+* Increase revenue generation
+* Enhance customer satisfaction
+* Improve operational efficiency
+* Support data-driven strategic planning
+
+---
+
+# 📷 Dashboard Preview
+
+> *(Add your dashboard screenshot here.)*
+
+```markdown
+![Hotel Booking Dashboard](images/dashboard.png)
+```
+
+---
+
+# 💼 Skills Demonstrated
+
+### Data Analytics
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Feature Engineering
+* Statistical Analysis
+* Business Insight Generation
+
+### Power BI
+
+* Data Modeling
+* DAX Measures
+* KPI Design
+* Interactive Dashboard Development
+* Business Reporting
+
+### Business Analysis
+
+* Revenue Analysis
+* Customer Segmentation
+* Cancellation Analysis
+* Trend Identification
+* Strategic Recommendation Development
+
+---
+
+# 🚀 Future Enhancements
+
+* Booking Cancellation Prediction using Machine Learning
+* Revenue Forecasting
+* Occupancy Forecasting
+* Customer Lifetime Value Analysis
+* Dynamic Pricing Optimization
+* Real-Time Hotel Performance Dashboard
+
+---
+
+# 👨‍💻 Author
+
+**Saurav Kumar**
+
+Aspiring Data Analyst | Python | SQL | Power BI | Excel
+
+**GitHub:** https://github.com/yourusername
+
+**LinkedIn:** https://linkedin.com/in/yourprofile
+
+---
+
+## ⭐ If you found this project valuable, consider starring the repository.
