@@ -274,6 +274,4 @@ Aspiring Data Analyst | Python | SQL | Power BI | Excel
 
 **LinkedIn:** https://www.linkedin.com/in/saurav-kumar-74a01a20a/
 
----
 
-## ⭐ If you found this project valuable, consider starring the repository.
